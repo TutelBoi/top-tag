@@ -24,9 +24,9 @@ app = Flask(__name__)
 playfab_cache = {}
 mute_cache = {}
 
-settings.TitleId = ""
-settings.SecretKey = ""
-settings.ApiKey = ""
+settings.TitleId = "495B3"
+settings.SecretKey = "RHNY99JX187QACWEX4J3DKRMCXE68EGJ8NEABO7BMZIDZTWNMU"
+settings.ApiKey = "OC|1671350990587516|72ac739d26ddeee80b26fb6a4669ba64"
 
 
 def return_function_json(data, funcname, funcparam={}):
